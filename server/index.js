@@ -8,5 +8,5 @@ app.get('/', function(req, res) {
 
 const port = process.env.PORT || 4567
 
-app.listen(port, () => console.log(`Take us to warp ${port}`))
-app.listen(port, () => console.log('Heroku is much easier than digital ocean'))
+app.listen(port, () => console.log(`Take us to warp ${port}`),
+console.log('Heroku is much easier than digital ocean'))
